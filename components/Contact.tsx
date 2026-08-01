@@ -17,10 +17,11 @@ export default function Contact() {
           {/* Founder Image */}
           <div className="flex justify-center mb-6">
             <Image
-              src="/founder.jpg"
+              src="/founder.jpg.png"
               alt="Founder"
               width={200}
               height={200}
+              quality={100}
               className="rounded-full border-4 border-cyan-400 object-cover"
             />
           </div>
