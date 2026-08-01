@@ -1,92 +1,34 @@
-export default function Contact() {
-  return (
-    <section
-      id="contact"
-      className="bg-slate-900 text-white py-24 px-8"
-    >
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
-        
-        {/* Contact Information */}
-        <div>
-          <h2 className="text-5xl font-bold mb-6">
-            Contact Us
-          </h2>
+<div className="mt-6">
+  <h3 className="text-2xl font-bold text-cyan-400">
+    Founder & CEO
+  </h3>
 
-          <p className="text-slate-400 mb-8">
-            Ready to transform your business with AI? Get in touch with us today.
-          </p>
+  <p className="mt-3 text-lg font-semibold text-white">
+    DAVALESWARAPU SAI SAMPATH KUMAR
+  </p>
 
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-cyan-400 font-semibold text-lg">
-                Founder & CEO
-              </h3>
-              <p className="text-white text-lg">
-                Davaleswarapu Sai Sampath Kumar
-              </p>
-            </div>
+  <p className="text-slate-300 mt-2">
+    Generative AI | Machine Learning | Data Science
+  </p>
 
-            <div>
-              <h3 className="text-cyan-400 font-semibold text-lg">
-                Mobile
-              </h3>
-              <p className="text-white text-lg">
-                +91 94917 58785
-              </p>
-            </div>
+  <p className="mt-4 text-slate-300">
+    📞 +91 94917 58785
+  </p>
 
-            <div>
-              <h3 className="text-cyan-400 font-semibold text-lg">
-                Email
-              </h3>
-              <p className="text-white text-lg">
-                saisampathkumar75@gmail.com
-              </p>
-            </div>
+  <p className="text-slate-300">
+    📧 saisampathkumar75@gmail.com
+  </p>
 
-            <div>
-              <h3 className="text-cyan-400 font-semibold text-lg">
-                Office Hours
-              </h3>
-              <p className="text-white text-lg">
-                Monday - Friday <br />
-                9:00 AM - 6:00 PM
-              </p>
-            </div>
-          </div>
-        </div>
+  <p className="text-slate-300">
+    🕒 Monday – Friday
+  </p>
 
-        {/* Contact Form */}
-        <div className="bg-slate-800 p-8 rounded-2xl shadow-lg">
-          <form className="space-y-6">
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-full p-4 rounded-lg bg-slate-900 border border-slate-700 focus:border-cyan-400 outline-none"
-            />
-
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="w-full p-4 rounded-lg bg-slate-900 border border-slate-700 focus:border-cyan-400 outline-none"
-            />
-
-            <textarea
-              rows={5}
-              placeholder="Your Message"
-              className="w-full p-4 rounded-lg bg-slate-900 border border-slate-700 focus:border-cyan-400 outline-none"
-            ></textarea>
-
-            <button
-              type="submit"
-              className="w-full bg-cyan-500 hover:bg-cyan-600 py-4 rounded-lg font-semibold transition"
-            >
-              Send Message
-            </button>
-          </form>
-        </div>
-
-      </div>
-    </section>
-  );
-}
+  <a
+    href="https://linkedin.com/in/sai-sampath-kumar-davaleswarapu-291492138"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block mt-6 bg-[#0A66C2] hover:bg-[#004182] text-white px-6 py-3 rounded-lg font-semibold transition duration-300"
+  >
+    Connect on LinkedIn
+  </a>
+</div>
